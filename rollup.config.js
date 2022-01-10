@@ -11,10 +11,10 @@ let entries = [];
 let core = {};
 
 let coreDependencies = {
-  "debuggervue/api": "debuggervue.api",
-  "debuggervue/config": "debuggervue.config",
-  "debuggervue/utils": "debuggervue.utils",
-  "debuggervue/dtButton": "debuggervue.dtButton",
+  "debuggervue/dist/api": "debuggervue.api",
+  "debuggervue/dist/config": "debuggervue.config",
+  "debuggervue/dist/utils": "debuggervue.utils",
+  "debuggervue/dist/dtButton": "debuggervue.dtButton",
 };
 
 let globalDependencies = {
@@ -25,7 +25,7 @@ let globalDependencies = {
 
 function addEntry(folder, inFile, outFile) {
   let useCorePlugin = Object.keys(coreDependencies).some(
-    (d) => d.replace("debuggervue/", "") === outFile
+    (d) => d.replace("debuggervue/dist", "") === outFile
   );
 
   entries.push({
@@ -109,7 +109,7 @@ function addCore() {
       generateBundle() {
         Object.entries(core).forEach(([filePath, value]) => {
           const code = Object.keys(coreDependencies).reduce((val, d) => {
-            const name = d.replace("debuggervue/", "");
+            const name = d.replace("debuggervue/dist", "");
             val += value[name] + "\n";
 
             return val;

@@ -7,8 +7,11 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        "debuggervue/api": path.resolve(__dirname, "src/components/api/Api.js"),
-        "debuggervue/dtButton": path.resolve(
+        "debuggervue/dist/api": path.resolve(
+          __dirname,
+          "src/components/api/Api.js"
+        ),
+        "debuggervue/dist/dtButton": path.resolve(
           __dirname,
           "src/components/dtButton/dtButton.vue"
         ),
