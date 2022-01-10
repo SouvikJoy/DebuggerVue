@@ -1,0 +1,37 @@
+{
+  "dtbutton/tag": {
+    "description": "Button tag",
+    "type": "string"
+  },
+  "dtbutton/type": {
+    "description": "Button type",
+    "type": "string"
+  },
+  "dtbutton/role": {
+    "description": "Button role",
+    "type": "string"
+  },
+  "dtbutton/block": {
+    "description": "Button block",
+    "type": "Boolean"
+  },
+  "dtbutton/pill": {
+    "description": "Button pill",
+    "type": "Boolean"
+  },
+  "dtbutton/variant": {
+    "description": "Button variant"
+  },
+  "dtbutton/rounded": {
+    "description": "Button rounded"
+  },
+  "dtbutton/floating": {
+    "description": "Button floating"
+  },
+  "dtbutton/toggler": {
+    "description": "Button toggler"
+  },
+  "dtbutton/picker": {
+    "description": "Button picker"
+  }
+}

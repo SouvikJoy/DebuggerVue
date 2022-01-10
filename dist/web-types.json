@@ -1,0 +1,121 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JetBrains/web-types/master/schema/web-types.json",
+  "framework": "vue",
+  "name": "DebuggerVue",
+  "version": "0.1.0",
+  "contributions": {
+    "html": {
+      "types-syntax": "typescript",
+      "description-markup": "markdown",
+      "tags": [
+        {
+          "name": "dtButton",
+          "source": {
+            "module": "DebuggerVue",
+            "symbol": "dtButton"
+          },
+          "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+          "description": "dtButton is an extension to standard button element with icons and theming.",
+          "attributes": [
+            {
+              "name": "tag",
+              "default": "button",
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button tag",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "type",
+              "default": "button",
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button type",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "role",
+              "default": "button",
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button role",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "block",
+              "default": false,
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button block",
+              "value": {
+                "kind": "expression",
+                "type": "Boolean"
+              }
+            },
+            {
+              "name": "pill",
+              "default": false,
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button pill",
+              "value": {
+                "kind": "expression",
+                "type": "Boolean"
+              }
+            },
+            {
+              "name": "variant",
+              "default": "btn-secondary",
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button variant",
+              "value": {
+                "kind": "expression"
+              }
+            },
+            {
+              "name": "rounded",
+              "default": false,
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button rounded",
+              "value": {
+                "kind": "expression"
+              }
+            },
+            {
+              "name": "floating",
+              "default": false,
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button floating",
+              "value": {
+                "kind": "expression"
+              }
+            },
+            {
+              "name": "toggler",
+              "default": false,
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button toggler",
+              "value": {
+                "kind": "expression"
+              }
+            },
+            {
+              "name": "picker",
+              "default": false,
+              "doc-url": "https://github.com/SouvikJoy/studious-octo-tribble.gitdtbutton",
+              "description": "Button picker",
+              "value": {
+                "kind": "expression"
+              }
+            }
+          ]
+        }
+      ],
+      "attributes": []
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dtButton": {
+    "description": "dtButton is an extension to standard button element with icons and theming.",
+    "attributes": [
+      "tag",
+      "type",
+      "role",
+      "block",
+      "pill",
+      "variant",
+      "rounded",
+      "floating",
+      "toggler",
+      "picker"
+    ]
+  }
+}
