@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "rollup -c && node build-meta && node api-generator/build-api && gulp build-styles",
+    "build-lib": "rollup -c && node build-meta && node api-generator/build-api && gulp build-styles",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },

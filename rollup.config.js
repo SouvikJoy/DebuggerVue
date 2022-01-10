@@ -11,9 +11,10 @@ let entries = [];
 let core = {};
 
 let coreDependencies = {
-  "debuggervue/utils": "debuggervue.utils",
   "debuggervue/api": "debuggervue.api",
   "debuggervue/config": "debuggervue.config",
+  "debuggervue/utils": "debuggervue.utils",
+  "debuggervue/dtButton": "debuggervue.dtButton",
 };
 
 let globalDependencies = {
@@ -42,7 +43,6 @@ function addEntry(folder, inFile, outFile) {
         name: "debuggervue." + folder,
         file: "dist/" + folder + "/" + outFile + ".js",
         globals: globalDependencies,
-        exports: "named",
       },
     ],
     plugins: [vue(), postcss(), useCorePlugin && corePlugin()],
