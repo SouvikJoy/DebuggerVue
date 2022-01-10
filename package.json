@@ -8,9 +8,6 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
-  "files": [
-    "dist"
-  ],
   "devDependencies": {
     "@popperjs/core": "^2.11.2",
     "@vue/cli-plugin-babel": "~4.5.0",
