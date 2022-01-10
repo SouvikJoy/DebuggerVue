@@ -1,14 +1,14 @@
 {
-  "name": "@souvikjoy/debuggervue",
+  "name": "debuggervue",
   "version": "1.1.1",
   "homepage": "https://debugger.tech",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SouvikJoy/studious-octo-tribble.git"
+    "url": "https://github.com/SouvikJoy/DebuggerVue.git"
   },
   "license": "MIT",
   "bugs": {
-      "url": "https://github.com/SouvikJoy/studious-octo-tribble.git"
+      "url": "https://github.com/SouvikJoy/DebuggerVue.git"
   },
   "keywords": [
     "debugger",

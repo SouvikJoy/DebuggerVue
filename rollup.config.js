@@ -18,7 +18,8 @@ let coreDependencies = {
 };
 
 let globalDependencies = {
-  vue: "Vue",
+  // eslint-disable-next-line
+  'vue': "Vue",
   ...coreDependencies,
 };
 
